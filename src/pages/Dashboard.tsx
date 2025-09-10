@@ -12,7 +12,7 @@ import {
   TrendingUp,
   MapPin
 } from "lucide-react";
-import oceanHero from "@/assets/ocean-hero.jpg";
+// Temporary placeholder - will add ocean hero image later
 
 const Dashboard = () => {
   const stats = [
@@ -33,11 +33,7 @@ const Dashboard = () => {
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <div className="relative h-96 overflow-hidden">
-        <img 
-          src={oceanHero} 
-          alt="Marine biodiversity underwater scene"
-          className="w-full h-full object-cover"
-        />
+        <div className="w-full h-full bg-gradient-depth" />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-secondary/60" />
         <div className="absolute inset-0 flex items-center justify-center text-center">
           <div className="space-y-4">
